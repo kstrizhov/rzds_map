@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leaflet example</title>
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet"
+	href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+<body>
+	<h3>Введите координаты точки 1</h3>
+	<form action="link" method="get">
+		<label for="lat-field">Широта</label> <input type="text"
+			name="latitude" id="lat-field"></input> <label for="long-field">Долгота</label>
+		<input type="text" name="longitude" id="long-field"></input>
+	</form>
+
+	<div id="map" style="width: 600px; height: 300px"></div>
+
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+	<script src="./map.js"></script>
+</body>
+</html>
